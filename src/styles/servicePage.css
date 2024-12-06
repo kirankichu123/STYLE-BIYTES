@@ -1,0 +1,129 @@
+.portfolio-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-page {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background-image: url('https://img.freepik.com/free-photo/interior-space-decorated-boho-style_23-2150771581.jpg?t=st=1732280733~exp=1732284333~hmac=52f1a7bc1fab0fa4fc8e855d5681f808641e9d0f69f4b4271e25fecc76780d5f&w=1060'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero .cta-btn {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .about, .process, .services, .portfolio, .pricing, .contact {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about h2, .process h2, .services h2, .portfolio h2, .pricing h2, .contact h2 {
+    font-size: 2.5rem;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial {
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .step {
+    max-width: 250px;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-item {
+    width: 20%;
+  }
+  
+  .portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .pricing-table {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pricing-item {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .footer a {
+    color: #f1c40f;
+    text-decoration: none;
+  }
+  
+
+  
+
+  .portfolio-item:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+
